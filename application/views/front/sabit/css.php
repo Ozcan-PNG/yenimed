@@ -1,4 +1,4 @@
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url ('assets/front/') ?>css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url ('assets/front/') ?>css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url ('assets/front/') ?>css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url ('assets/front/') ?>css/owl.carousel.css">

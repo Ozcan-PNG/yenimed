@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hakkımızda</title>
+    <title><?php echo $meta['sayfaAdi'] ?> | Hakkımızda</title>
     <meta name="description" content="<?php echo $hakkimizda['desc'] ?>">
     <meta name="keywords" content="<?php echo $hakkimizda['desc'] ?>">
     <?php $this->load->view('front/sabit/css.php')?>
