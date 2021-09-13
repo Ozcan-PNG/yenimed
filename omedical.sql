@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 13 Eyl 2021, 16:03:06
+-- Üretim Zamanı: 13 Eyl 2021, 20:49:40
 -- Sunucu sürümü: 10.4.18-MariaDB
 -- PHP Sürümü: 7.3.27
 
@@ -29,6 +29,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `blog` (
   `id` int(11) NOT NULL,
+  `baslik` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
+  `sef` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
   `yazi` longtext COLLATE utf8_turkish_ci NOT NULL,
   `resim` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
   `key` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
@@ -39,9 +41,9 @@ CREATE TABLE `blog` (
 -- Tablo döküm verisi `blog`
 --
 
-INSERT INTO `blog` (`id`, `yazi`, `resim`, `key`, `desc`) VALUES
-(1, 'dhgh', 'resim', 'key', 'desc'),
-(2, 'sadfa', 'af', 'asf', 'asdf');
+INSERT INTO `blog` (`id`, `baslik`, `sef`, `yazi`, `resim`, `key`, `desc`) VALUES
+(1, 'asd', 'asdsef', 'dhgh', 'assets/front/images/blog_bg_1.jpg', 'key', 'desc'),
+(2, 'ddd', 'ddsef', 'sadfa', 'assets/front/images/blog_bg_1.jpg', 'asf', 'asdf');
 
 -- --------------------------------------------------------
 
@@ -81,8 +83,8 @@ CREATE TABLE `doktorlar` (
 --
 
 INSERT INTO `doktorlar` (`id`, `adSoyad`, `alani`, `resim`) VALUES
-(1, 'dr1', 'asd', 'resim url'),
-(2, 'dr2', 'adddd', 'resimurl');
+(1, 'dr1', 'asd', 'assets/front/images/team_1.jpg'),
+(2, 'dr2', 'adddd', 'assets/front/images/team_1.jpg');
 
 -- --------------------------------------------------------
 
@@ -102,8 +104,8 @@ CREATE TABLE `galeri` (
 --
 
 INSERT INTO `galeri` (`id`, `resim`, `baslik`, `yazi`) VALUES
-(1, 'resim', 'başlık', 'yazı'),
-(2, 'resim', 'başlık', 'yazi3');
+(1, 'assets/front/images/dc_galry_img_1.jpg', 'başlık', 'yazı'),
+(2, 'assets/front/images/dc_galry_img_1.jpg', 'başlık', 'yazi3');
 
 -- --------------------------------------------------------
 
@@ -184,15 +186,16 @@ CREATE TABLE `iletisim` (
   `wpTel` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
   `map` varchar(1000) COLLATE utf8_turkish_ci NOT NULL,
   `key` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
-  `desc` varchar(255) COLLATE utf8_turkish_ci NOT NULL
+  `desc` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
+  `mail` varchar(255) COLLATE utf8_turkish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
 --
 -- Tablo döküm verisi `iletisim`
 --
 
-INSERT INTO `iletisim` (`id`, `yazi`, `adres`, `tel`, `wpTel`, `map`, `key`, `desc`) VALUES
-(1, 'iletişime geç yarm', 'adres', '346757', '374566666', 'harita iframe', '', '');
+INSERT INTO `iletisim` (`id`, `yazi`, `adres`, `tel`, `wpTel`, `map`, `key`, `desc`, `mail`) VALUES
+(1, 'iletişime geç yarm', 'adres sdf sdfsjdsdf', '5433333333', '374566666', 'harita iframe', 'k', 'd', 'mail@mail.com');
 
 -- --------------------------------------------------------
 
@@ -231,6 +234,20 @@ CREATE TABLE `referanslar` (
   `id` int(11) NOT NULL,
   `resim` varchar(255) COLLATE utf8_turkish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
+
+--
+-- Tablo döküm verisi `referanslar`
+--
+
+INSERT INTO `referanslar` (`id`, `resim`) VALUES
+(1, 'assets/front/images/partner_6.png'),
+(2, 'assets/front/images/partner_6.png'),
+(3, 'assets/front/images/partner_6.png'),
+(4, 'assets/front/images/partner_6.png'),
+(5, 'assets/front/images/partner_6.png'),
+(6, 'assets/front/images/partner_6.png'),
+(7, 'assets/front/images/partner_6.png'),
+(8, 'assets/front/images/partner_6.png');
 
 -- --------------------------------------------------------
 
@@ -335,6 +352,12 @@ ALTER TABLE `meta`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Tablo için indeksler `referanslar`
+--
+ALTER TABLE `referanslar`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Tablo için indeksler `slider`
 --
 ALTER TABLE `slider`
@@ -403,6 +426,12 @@ ALTER TABLE `iletisim`
 --
 ALTER TABLE `meta`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- Tablo için AUTO_INCREMENT değeri `referanslar`
+--
+ALTER TABLE `referanslar`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `slider`
