@@ -2,9 +2,9 @@
 <html lang="tr">
 <head>
     <meta charset="utf-8">
-    <title>Randevu Al</title>
-    <meta name="description" content="medico">
-    <meta name="keywords" content="medical/medico/hospital">
+    <title><?php echo $meta['sayfaAdi'] ?> | Randevu Al</title>
+    <meta name="description" content="<?php echo $meta['anaSayfaDesc'] ?>">
+    <meta name="keywords" content="<?php echo $meta['anaSayfaKey'] ?>">
     <?php $this->load->view('front/sabit/css.php')?>
 </head>
 

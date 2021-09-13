@@ -16,8 +16,12 @@ class Front extends CI_Controller {
 		$this->viewData->meta = $sonuc;
 		$sonuc = $this->dtbs->listele('referanslar');
 		$this->viewData->referanslar = $sonuc;
+		$sonuc = $this->dtbs->listele('hizmet_kategoriler');
+		$this->viewData->hizmet_kategoriler = $sonuc;
 		$sonuc = $this->dtbs->cek(1,'iletisim');
 		$this->viewData->iletisim = $sonuc;
+		$sonuc = $this->dtbs->listele('calisma_saatleri');
+		$this->viewData->calisma_saatleri = $sonuc;
 	}
 
 	public function index()
@@ -39,6 +43,8 @@ class Front extends CI_Controller {
 
 	public function galeri()
 	{
+		$sonuc = $this->dtbs->listele('galeri');
+		$this->viewData->galeris = $sonuc;
 		$this->load->view('Front/galeri',$this->viewData);
 	}
 

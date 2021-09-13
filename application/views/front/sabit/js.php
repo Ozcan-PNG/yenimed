@@ -11,7 +11,7 @@
     <script type="text/javascript">
         (function () {
             var options = {
-            whatsapp: "5555555555", // WhatsApp number
+            whatsapp: "<?php echo $iletisim['wpTel'] ?>", // WhatsApp number
             call_to_action: "Merhaba, size nasıl yardımcı olabilirim?", // Call to action
             position: "left", // Position may be 'right' or 'left'
         };

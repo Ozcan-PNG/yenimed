@@ -54,11 +54,9 @@
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hizmetler</a>
                           <ul class="dropdown-menu hovr_nav_tab"> 
-                           <li><a href="<?php echo base_url ('sacekimi') ?>">SAÇ EKİMİ</a></li>
-                           <li><a href="<?php echo base_url () ?>">AĞIZ VE DİŞ SAĞLIĞI</a></li>
-                           <li><a href="<?php echo base_url () ?>">ESTETİK CERRAHI</a></li>
-                           <li><a href="<?php echo base_url () ?>">MİDE KÜÇÜLTME</a></li>
-                           <li><a href="<?php echo base_url () ?>">GÖZ</a></li>
+                            <?php foreach ($hizmet_kategoriler as $kategori): ?>
+                           <li><a href="<?php echo base_url ('kategori/'.$kategori['sef']) ?>"><?php echo $kategori['adi'] ?></a></li>
+                            <?php endforeach ?>
                        </ul>
                    </li>
                    <li><a href="<?php echo base_url ('doktorlar') ?>">Doktorlarımız</a></li>
