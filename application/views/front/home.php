@@ -14,7 +14,6 @@
 <body>
 
     <?php $this->load->view('front/sabit/menu.php')?>
-    <?php $this->load->view('front/sabit/whatsapp.php')?>
 
     <!--slider wrapper start-->
     <div class="slider_main_wrapper">

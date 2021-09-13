@@ -11,7 +11,6 @@
 <body>
 
     <?php $this->load->view('front/sabit/menu.php')?>
-    <?php $this->load->view('front/sabit/whatsapp.php')?>
     
     <!-- med_tittle_section -->
     <?php $this->load->view('front/sabit/banner.php')?>

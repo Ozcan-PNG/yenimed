@@ -16,6 +16,8 @@ class Front extends CI_Controller {
 		$this->viewData->meta = $sonuc;
 		$sonuc = $this->dtbs->listele('referanslar');
 		$this->viewData->referanslar = $sonuc;
+		$sonuc = $this->dtbs->cek(1,'iletisim');
+		$this->viewData->iletisim = $sonuc;
 	}
 
 	public function index()
@@ -42,6 +44,8 @@ class Front extends CI_Controller {
 
 	public function doktorlar()
 	{
+		$sonuc = $this->dtbs->listele('doktorlar');
+		$this->viewData->doktorlar = $sonuc;
 		$this->load->view('Front/doktorlar',$this->viewData);
 	}
 
@@ -52,6 +56,8 @@ class Front extends CI_Controller {
 	
 	public function blog()
 	{
+		$sonuc = $this->dtbs->listele('blog');
+		$this->viewData->bloglar = $sonuc;
 		$this->load->view('Front/blog',$this->viewData);
 	}
 //Kategori Detay

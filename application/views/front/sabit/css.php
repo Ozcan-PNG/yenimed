@@ -9,4 +9,4 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url ('assets/front/') ?>css/style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url ('assets/front/') ?>css/responsive.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="shortcut icon" type="image/icon" href="<?php echo base_url ('assets/front/') ?>mages/Iconpic.png">
+    <link rel="shortcut icon" type="image/icon" href="<?php echo base_url ('assets/front/') ?>images/Iconpic.png">

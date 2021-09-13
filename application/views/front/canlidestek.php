@@ -2,15 +2,14 @@
 <html lang="tr">
 <head>
     <meta charset="utf-8">
-    <title>Blog</title>
-    <meta name="description" content="medico">
-    <meta name="keywords" content="medical/medico/hospital">
+    <title><?php echo $meta['sayfaAdi'] ?> | Canlı Destek</title>
+    <meta name="description" content="<?php echo $meta['anaSayfaDesc'] ?>">
+    <meta name="keywords" content="<?php echo $meta['anaSayfaKey'] ?>">
     <?php $this->load->view('front/sabit/css.php')?>
 </head>
 
 <body>
 	<?php $this->load->view('front/sabit/menu.php')?>
-	<?php $this->load->view('front/sabit/whatsapp.php')?>
 	<!--med_tittle_section-->
     <?php $this->load->view('front/sabit/banner.php')?>
         <div class="med_img_overlay"></div>
