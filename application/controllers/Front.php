@@ -7,13 +7,15 @@ class Front extends CI_Controller {
 	{
 		parent::__construct();
 		$this->viewData = new stdClass();
-		//bütün vea birden çok sayfada aynı veri kullanacaksam buraya yazıyorum
+		//bütün veya birden çok sayfada aynı veri kullanacaksam buraya yazıyorum
 		$sonuc = $this->dtbs->listele('sosyal_medya');
 		$this->viewData->sosyal_medya = $sonuc;
 		$sonuc = $this->dtbs->cek(1,'hakkimizda');
 		$this->viewData->hakkimizda = $sonuc;
 		$sonuc = $this->dtbs->cek(1,'meta');
 		$this->viewData->meta = $sonuc;
+		$sonuc = $this->dtbs->listele('referanslar');
+		$this->viewData->referanslar = $sonuc;
 	}
 
 	public function index()
