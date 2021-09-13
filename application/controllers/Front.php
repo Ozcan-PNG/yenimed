@@ -37,7 +37,7 @@ class Front extends CI_Controller {
 	{
 		$this->load->view('Front/blog');
 	}
-
+//Kategori Detay
 	public function sacekimi()
 	{
 		$this->load->view('Front/sacekimi');
