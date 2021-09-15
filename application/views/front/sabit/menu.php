@@ -50,7 +50,6 @@
                          
                     <ul class="nav navbar-nav" id="nav_filter">
                         <li><a href="<?php echo base_url () ?>">Ana Sayfa</a></li>
-                        <li><a href="<?php echo base_url ('hakkimizda') ?>">Hakkımızda</a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hizmetler</a>
                           <ul class="dropdown-menu hovr_nav_tab"> 
@@ -62,6 +61,7 @@
                    <li><a href="<?php echo base_url ('doktorlar') ?>">Doktorlarımız</a></li>
                    <li><a href="<?php echo base_url ('galeri') ?>">Galeri</a></li>
                    <li><a href="<?php echo base_url ('blog') ?>">Blog</a></li>
+                   <li><a href="<?php echo base_url ('hakkimizda') ?>">Hakkımızda</a></li>
                    <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">İletişim</a>
                       <ul class="dropdown-menu hovr_nav_tab">
