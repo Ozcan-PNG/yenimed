@@ -12,8 +12,6 @@
 <body>
 
     <?php $this->load->view('front/sabit/menu.php')?>
-
-    <!--med_tittle_section-->
     <?php $this->load->view('front/sabit/banner.php')?>
     <div class="med_img_overlay"></div>
     <div class="container">
@@ -33,8 +31,6 @@
         </div>
     </div>
 </div>
-<!-- med_tittle_section End -->
-<!--about us section start-->
 <div class="about_us_wrapper">
     <div class="container">
         <div class="row">
@@ -56,15 +52,9 @@
       </div>
   </div>
 </div>
-<!--about us section end-->
-
-
-
-<!-- counter wrapper start-->
 <div class="top_service_wrapper">
  <!-- bu divi silince sayfa siyaha dönüyor -->
 </div>
-<!-- top service wrapper end-->
 
 
 

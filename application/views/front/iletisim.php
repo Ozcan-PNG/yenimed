@@ -11,8 +11,6 @@
 <body>
 
     <?php $this->load->view('front/sabit/menu.php')?>
-
-    <!-- med_tittle_section-->
     <?php $this->load->view('front/sabit/banner.php')?>
     <div class="med_img_overlay"></div>
     <div class="container">
@@ -32,9 +30,6 @@
         </div>
     </div>
 </div>
-
-<!-- med_tittle_section End-->
-<!--contact us section start -->
 <div class="contact_us_section med_toppadder100 med_bottompadder70">
     <div class="container">
         <div class="row">
@@ -54,7 +49,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="contect_form1 dc_cont_div">
-                                <input type="text" name="email" placeholder="E-mail" class="require" data-valid="email" data-error="Email should be valid.">
+                                <input type="text" name="email" placeholder="E-Posta" class="require" data-valid="email" data-error="Email should be valid.">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -64,12 +59,12 @@
                      </div>
                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="contect_form1 dc_cont_div">
-                         <input type="text" name="subject" placeholder="Ders">
+                         <input type="text" name="subject" placeholder="Konu">
                      </div>
                  </div>
                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="contect_form4 dc_cont_div">
-                       <textarea rows="5" name="message" placeholder="İleti" class="require"></textarea>
+                       <textarea rows="5" name="message" placeholder="Mesaj" class="require"></textarea>
                    </div>
                </div>
                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -86,8 +81,6 @@
 
 </div>
 </div>
-<!--contact us section end-->
-<!-- dc category section start-->
 <div class="category_wrapper">
     <div class="container">
         <div class="row">
@@ -134,14 +127,12 @@
         </div>
     </div>
     <div class="map_main_wrapper cont_dc_map">
-        <!--<div id="map" style="width:100%; float:left; height:600px;"></div>-->
 
         <?php echo $iletisim['map'] ?>
 
 
     </div>
 </div>
-<!-- dc category section end-->
 <?php $this->load->view('front/referanslar.php')?>
 <?php $this->load->view('front/sabit/footer.php')?>
 <?php $this->load->view('front/sabit/js.php')?>

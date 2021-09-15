@@ -11,8 +11,6 @@
 <body>
 
     <?php $this->load->view('front/sabit/menu.php')?>
-    
-    <!-- med_tittle_section -->
     <?php $this->load->view('front/sabit/banner.php')?>
         <div class="med_img_overlay"></div>
         <div class="container">
@@ -32,8 +30,6 @@
             </div>
         </div>
     </div>
-    <!-- med_tittle_section End -->
-    <!-- appoint_section start -->
     <div class="booking_wrapper book_section med_toppadder100">
         <div class="container">
             <div class="row">
@@ -120,8 +116,6 @@
             </div>
         </div>
     </div>
-    <!--appoint_section end-->
-    <!--available_section start-->
     <div class="booking_wrapper avail_section med_bottompadder90">
         <div class="container">
             <div class="row">

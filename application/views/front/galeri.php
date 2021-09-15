@@ -13,8 +13,6 @@
 <body>
 
     <?php $this->load->view('front/sabit/menu.php')?>
-
-    <!--med_tittle_section-->
     <?php $this->load->view('front/sabit/banner.php')?>
     <div class="med_img_overlay"></div>
     <div class="container">

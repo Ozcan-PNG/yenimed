@@ -7,6 +7,12 @@
     <script src="<?php echo base_url ('assets/front/') ?>js/owl.carousel.js"></script>
     <script src="<?php echo base_url ('assets/front/') ?>js/jquery.magnific-popup.js"></script>
     <script src="<?php echo base_url ('assets/front/') ?>js/custom.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+
+
+
     <!-- GetButton.io widget -->
     <script type="text/javascript">
         (function () {

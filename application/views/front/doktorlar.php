@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--[endif]-->
+<html lang="tr">
 
 <head>
     <meta charset="utf-8">
@@ -12,8 +11,6 @@
 
 <body>
     <?php $this->load->view('front/sabit/menu.php')?>
-
-    <!-- med_tittle_section-->
     <?php $this->load->view('front/sabit/banner.php')?>
     <div class="med_img_overlay"></div>
     <div class="container">
@@ -33,8 +30,6 @@
         </div>
     </div>
 </div>
-<!-- med_tittle_section End -->
-<!--doctor portfolio section start-->
 <div class="portfolio_section med_toppadder100 med_bottompadder70">
     <div class="container">
         <div class="row">
@@ -69,15 +64,10 @@
 
                 <?php endforeach ?>
             </div>
-            <!--/#gridWrapper-->
         </div>
-        <!-- /.row -->
     </div>
-    <!-- /.container -->
 </section>
-<!--/.portfolio-area-->
 </div>
-<!--doctor portfolio section end-->
 
 <?php $this->load->view('front/referanslar.php')?>
 <?php $this->load->view('front/sabit/footer.php')?>

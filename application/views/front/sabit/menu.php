@@ -129,11 +129,11 @@
                        <li><a href="<?php echo base_url ('randevu') ?>">Randevu Al </a></li>
                      </ul>
                    </li>
-                 </ul>
-               </div>
+               </ul>
              </div>
            </div>
          </div>
        </div>
      </div>
    </div>
+ </div>

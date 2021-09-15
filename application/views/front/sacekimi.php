@@ -9,7 +9,6 @@
 </head>
 <body>
 	<?php $this->load->view('front/sabit/menu.php')?>
-    <!--med_tittle_section-->
     <?php $this->load->view('front/sabit/banner.php')?>
 		<div class="med_img_overlay"></div>
 			<div class="container">
@@ -28,8 +27,6 @@
 			</div>
 		</div>
 	</div>
-<!-- med_tittle_section End -->
- <!--service section start-->
     <div class="team_wrapper med_toppadder100">
         <div class="container">
             <div class="row">
@@ -43,8 +40,6 @@
 	</div>
 </div>
 </div>
-    <!--service section end-->
-	<!--ser_abt section start-->
     <div class="ser_abt">
         <div class="container">
             <div class="row">
@@ -77,8 +72,6 @@
             </div>
         </div>
     </div>
-    <!--ser_abt section end-->
-	<!--ser_blog section start-->
     <?php $this->load->view('front/referanslar.php')?>
     <?php $this->load->view('front/sabit/footer.php')?>
     <?php $this->load->view('front/sabit/js.php')?>
