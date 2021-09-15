@@ -41,62 +41,6 @@
             </div>
         </div>
     </div>
-    <!--slider wrapper end-->
-    
-    <!--category wrapper start-->
-    <div class="category_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="cat_about">
-                        <div class="icon_wrapper">
-                            <img src="<?php echo base_url ('assets/front/') ?>images/icon1.png" alt="img" class="img-responsive">
-                        </div>
-                        <div class="cat_img">
-                            <img src="<?php echo base_url ('assets/front/') ?>images/icon_11.png" alt="img" class="img-responsive">
-                        </div>
-                        <div class="cat_txt">
-                            <h1>Kalp Ameliyatı</h1>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin at the good health for you.</p>
-                            <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="cat_about">
-                        <div class="icon_wrapper">
-                            <img src="<?php echo base_url ('assets/front/') ?>images/icon2.png" alt="img" class="img-responsive">
-                        </div>
-                        <div class="cat_img">
-                            <img src="<?php echo base_url ('assets/front/') ?>images/icon_2.png" alt="img" class="img-responsive">
-                        </div>
-                        <div class="cat_txt">
-                            <h1>Acil Bakım</h1>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin at the good health for you.</p>
-                            <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="cat_about">
-                        <div class="icon_wrapper">
-                            <img src="<?php echo base_url ('assets/front/') ?>images/icon3.png" alt="img" class="img-responsive">
-                        </div>
-                        <div class="cat_img cat_img_3">
-                            <img src="<?php echo base_url ('assets/front/') ?>images/icon_3.png" alt="img" class="img-responsive">
-                        </div>
-                        <div class="cat_txt">
-                            <h1>Diş Bakımı</h1>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin at the good health for you.</p>
-                            <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--category wrapper end-->
-    <!--about us wrapper start-->
     <div class="about_wrapper">
         <div class="container">
             <div class="row">

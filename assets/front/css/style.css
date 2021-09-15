@@ -871,6 +871,7 @@ color: #777777;
 }
 .cc_slider_cont1 li:first-child{
 	margin-left:-43px;
+	margin-top: -40px;
 }
 .cc_slider_cont1 li a{
 	width:160px;
