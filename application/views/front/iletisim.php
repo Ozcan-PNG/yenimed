@@ -33,7 +33,7 @@
 <div class="contact_us_section med_toppadder100 med_bottompadder70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="float: none;margin: 0 auto;">
                 <div class="choose_heading_wrapper med_bottompadder30">
                     <h1 class="med_bottompadder20">Bize Ulaşın</h1>
                     <img src="<?php echo base_url ('assets/front/') ?>images/line.png" alt="title" class="med_bottompadder20">
@@ -106,7 +106,7 @@
 
                     <div class="cat_txt cont_cat_txt">
                         <h1>Telefon</h1>
-                        <p><a href="tel:<?php echo $iletisim['tel'] ?>"><?php echo $iletisim['tel'] ?>s</a></p>
+                        <p><a href="tel:<?php echo $iletisim['tel'] ?>"><?php echo $iletisim['tel'] ?></a></p>
 
                     </div>
                 </div>
@@ -119,7 +119,7 @@
 
                     <div class="cat_txt cont_cat_txt cont_last_child">
                         <h1>E-Posta</h1>
-                        <p><a href="tel:<?php echo $iletisim['mail'] ?>"><?php echo $iletisim['mail'] ?></a></p>
+                        <p><a href="mailto:<?php echo $iletisim['mail'] ?>"><?php echo $iletisim['mail'] ?></a></p>
 
                     </div>
                 </div>

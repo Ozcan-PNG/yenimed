@@ -2878,6 +2878,7 @@ color: #777777;
 	font-weight:bold;
 	text-transform:uppercase;
 	padding-bottom:20px;
+	line-height: 40px;
 }
 .breadcrumb li a{
 	color:black;
