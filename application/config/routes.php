@@ -8,6 +8,7 @@ $route['randevu'] = 'front/randevu';
 $route['galeri'] = 'front/galeri';
 $route['doktorlar'] = 'front/doktorlar';
 $route['blog'] = 'front/blog';
+$route['blogdetay'] = 'front/blogdetay';
 $route['sacekimi'] = 'front/sacekimi';
 $route['canlidestek'] = 'front/canlidestek';
 $route['404_override'] = '';

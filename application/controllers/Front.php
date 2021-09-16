@@ -66,6 +66,12 @@ class Front extends CI_Controller {
 		$this->viewData->bloglar = $sonuc;
 		$this->load->view('Front/blog',$this->viewData);
 	}
+
+	public function blogdetay()
+	{
+		$this->load->view('Front/blogdetay',$this->viewData);
+	}
+
 //Kategori Detay
 	public function sacekimi()
 	{
