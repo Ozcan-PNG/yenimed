@@ -27,28 +27,11 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="footer_main_wrapper">
-                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 gallary_response hidden-sm">
-                            <div class="footer_heading">
-                                <h1 class="med_bottompadder10">Instagram</h1>
-                                <img src="<?php echo base_url ('assets/front/') ?>images/line.png" class="img-responsive" alt="img">
-                            </div>
-                            <div class="footer_gallary">
-                                <div class="row">
-                                 <ul>
-                                     <li><img src="<?php echo base_url ('assets/front/') ?>images/footer_1.jpg" alt="img" class="img-responsive"></li>
-                                     <li><img src="<?php echo base_url ('assets/front/') ?>images/footer_2.jpg" alt="img" class="img-responsive"></li>
-                                     <li><img src="<?php echo base_url ('assets/front/') ?>images/footer_3.jpg" alt="img" class="img-responsive"></li>
-                                     <li><img src="<?php echo base_url ('assets/front/') ?>images/footer_4.jpg" alt="img" class="img-responsive"> </li>
-                                     <li> <img src="<?php echo base_url ('assets/front/') ?>images/footer_5.jpg" alt="img" class="img-responsive"> </li>
-                                     <li> <img src="<?php echo base_url ('assets/front/') ?>images/footer_6.jpg" alt="img" class="img-responsive"> </li>
-                                 </ul> 
-                             </div>
-                         </div>
-                     </div>
+                         
                      <!--footer_2-->
                      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 respons_footer_nav hidden-xs">
                         <div class="footer_heading footer_menu">
-                            <h1 class="med_bottompadder10">Userful</h1>
+                            <h1 class="med_bottompadder10">BAĞLANTILAR</h1>
                             <img src="<?php echo base_url ('assets/front/') ?>images/line.png" class="img-responsive" alt="img">
                         </div>
                         <div class="footer_ul_wrapper">

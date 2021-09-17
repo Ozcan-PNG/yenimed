@@ -72,10 +72,9 @@
                         <ul class="dropdown-menu hovr_nav_tab">
                           <li style="list-style: none;">
                             <a  href="/en"><span class="flag-icon flag-icon-gb"></span> ENGLISH</a></li>
-                            <li style="list-style: none;"><a href="/ru"><span class="flag-icon flag-icon-ru"></span> РОССИЯ</a></li>
-                            <li style="list-style: none;"><a href="/de"><span class="flag-icon flag-icon-ar"></span> عربي</a></li>
+                            <li style="list-style: none;"><a href="/de"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
                             <li style="list-style: none;"><a href="/fr"><span class="flag-icon flag-icon-fr"></span> FRANCE</a></li>
-                            <li style="list-style: none;"><a  href="/ua"><span class="flag-icon flag-icon-ua"></span> УКРАЇНА</a></li>
+                            <li style="list-style: none;"><a href="/de"><span class="flag-icon flag-icon-ar"></span> عربي</a></li>
                           </ul>
                         </div>
                       </li>
@@ -146,20 +145,19 @@
                      </li>
                      <li class="has-sub">
                       <a href="#" class="dropdown-toggle" aria-expanded="true"><span class="flag-icon flag-icon-tr"></span> TÜRKÇE</a>
-                          <ul>
-                            <li style="list-style: none;">
-                              <a  href="/en"><span class="flag-icon flag-icon-gb"></span> ENGLISH</a></li>
-                              <li style="list-style: none;"><a href="/ru"><span class="flag-icon flag-icon-ru"></span> РОССИЯ</a></li>
-                              <li style="list-style: none;"><a href="/de"><span class="flag-icon flag-icon-ar"></span> عربي</a></li>
-                              <li style="list-style: none;"><a href="/fr"><span class="flag-icon flag-icon-fr"></span> FRANCE</a></li>
-                              <li style="list-style: none;"><a  href="/ua"><span class="flag-icon flag-icon-ua"></span> УКРАЇНА</a></li>
-                            </ul>
-                        </li>
-                      </ul>
-                    </div>
+                      <ul>
+                        <li style="list-style: none;">
+                          <a  href="/en"><span class="flag-icon flag-icon-gb"></span> ENGLISH</a></li>
+                          <li style="list-style: none;"><a href="/de"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
+                          <li style="list-style: none;"><a href="/fr"><span class="flag-icon flag-icon-fr"></span> FRANCE</a></li>
+                          <li style="list-style: none;"><a href="/de"><span class="flag-icon flag-icon-ar"></span> عربي</a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
